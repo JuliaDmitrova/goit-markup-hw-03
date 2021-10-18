@@ -426,8 +426,9 @@ body {
 
 .address-link {
   display: block;
+
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -438,16 +439,16 @@ body {
 
 .mail-footer,
 .tel-footer {
-  font-weight: 400;
+  display: block;
+  margin-bottom: 9px;
+
+  font-weight: 400px;
   font-size: 14px;
   line-height: 1.71;
+
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-}
-
-.mail-list {
-  margin-bottom: 9px;
 }
 
 .footer-logotype {
